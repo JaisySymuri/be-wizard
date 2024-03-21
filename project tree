@@ -1,0 +1,35 @@
+📦be-wizard
+┣ 📂logs
+┣ 📂prisma
+ ┃ ┗ 📜schema.prisma
+┣ 📂src
+┃ ┣ 📂connect
+┃ ┃ ┣ 📜connect.controller.spec.ts
+┃ ┃ ┗ 📜connect.controller.ts
+┃ ┣ 📂get_token_data
+┃ ┃ ┣ 📜get_token_data.controller.spec.ts
+┃ ┃ ┣ 📜get_token_data.controller.ts
+┃ ┃ ┣ 📜get_token_data.module.ts
+┃ ┃ ┣ 📜get_token_data.service.spec.ts
+┃ ┃ ┗ 📜get_token_data.service.ts
+┃ ┣ 📜app.controller.spec.ts
+┃ ┣ 📜app.controller.ts
+┃ ┣ 📜app.module.ts
+┃ ┣ 📜app.service.ts
+┃ ┣ 📜cors.middleware.ts
+┃ ┣ 📜injective.config.ts
+┃ ┗ 📜main.ts
+┣ 📂test
+┃ ┣ 📜app.e2e-spec.ts
+┃ ┗ 📜jest-e2e.json
+┣ 📜.env
+┣ 📜.eslintrc.js
+┣ 📜.gitignore
+┣ 📜.prettierrc
+┣ 📜README.md
+┣ 📜nest-cli.json
+┣ 📜package-lock.json
+┣ 📜package.json
+┣ 📜tsconfig.build.json
+┣ 📜tsconfig.json
+┗ 📜yarn.lock
